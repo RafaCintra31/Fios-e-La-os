@@ -5,7 +5,7 @@ import Navegador from './Navegador';
 import Tapete_Conzinha from '../assets/imgens/Tapete_cozinha.jpeg'
 import Tapete_Conzinha2 from '../assets/imgens/Tapete_cozinha2.jpeg'
 import Tapete_Banheiro from '../assets/imgens/Tapete_banheiro.jpeg'
-import Tapete_sala from '../assets/imgens/Tapete_sala.jpeg'
+import Tapete_sala from '../assets/imgens/tapete_sala.jpeg'
 import Mesa from '../assets/imgens/Mesa.jpeg'
 import Mesa2 from '../assets/imgens/Mesa2.jpeg'
 import Mesa3 from '../assets/imgens/Mesa3.jpeg'
