@@ -1,0 +1,164 @@
+.destaque {
+  width: 100%;
+  padding: 60px 24px;
+}
+
+.destaque_container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destaque_titulo {
+  font-family: popins;
+  font-size: 50px;
+  font-weight: 800;
+  color: #7C3AED;
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+
+.destaque_subtitulo {
+  font-family: popins;
+  font-size: 25px;
+  font-weight: 600;
+  color: #8B6F47;
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 0 48px 0;
+}
+
+.destaque_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.destaque_card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.destaque_card:hover {
+  box-shadow: 0 12px 32px rgba(120, 0, 200, 0.18);
+  transform: translateY(-4px);
+}
+
+.destaque_card:hover .destaque_card_img {
+  transform: scale(1.08);
+}
+
+.destaque_card_img_wrapper:hover {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.destaque_card_img_wrapper{
+  width: 100%;
+  height: 200px;
+}
+
+.destaque_card_img{
+  width: 100%;
+  height: 200px;
+}
+
+.destaque_badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #CC00CC;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: popins;
+  padding: 4px 12px;
+  border-radius: 50px;
+}
+
+.destaque_card_body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.destaque_card_nome {
+  font-family: popins;
+  font-size: 22px;
+  font-weight: 700;
+  color: #7C3AED;
+  margin: 0;
+}
+
+.destaque_card_desc {
+  font-family: popins;
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.destaque_card_avaliacao {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: popins;
+  font-size: 15px;
+}
+
+.destaque_estrela {
+  font-size: 15px;
+}
+
+.destaque_nota {
+  font-weight: 700;
+  color: #333;
+}
+
+.destaque_avaliacoes {
+  color: #777;
+}
+
+.destaque_card_rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.destaque_preco {
+  font-family: popins;
+  font-size: 20px;
+  font-weight: 800;
+  color: #e00000;
+}
+
+.destaque_btn {
+  background-color: #CC00CC;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: popins;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  text-align: center;
+  align-items: center;
+}
+
+.destaque_btn:hover {
+  background-color: #F29AFF;
+  color: #000;
+}

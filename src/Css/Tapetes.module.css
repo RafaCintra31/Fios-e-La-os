@@ -1,0 +1,208 @@
+.tapetes_hero {
+  width: 100%;
+  padding: 60px 24px 32px;
+  text-align: center;
+  margin-top: 72px;
+}
+
+.tapetes_hero__titulo {
+  font-family: popins;
+  font-size: 50px;
+  font-weight: 800;
+  color: #7C3AED;
+  margin: 0 0 12px;
+}
+
+.tapetes_hero__subtitulo {
+  font-family: popins;
+  font-size: 25px;
+  color: #8B6F47;
+  margin: 0;
+}
+
+.tapetes_secao {
+  padding: 40px 24px 60px;
+}
+
+.tapetes_secao__inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.tapetes_filtros {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.tapetes_filtros__label {
+  font-family: popins;
+  font-size: 25px;
+  font-weight: 600;
+  color: #8B6F47;
+  white-space: nowrap;
+}
+
+.tapetes_filtros__lista {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tapetes_filtros__btn {
+  background: none;
+  border: none;
+  font-family: popins;
+  font-size: 20px;
+  font-weight: 500;
+  color: #7C3AED;
+  cursor: pointer;
+  padding: 4px 2px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.tapetes_filtros__btn{
+  border-bottom: 2px solid #7B00CC;
+  font-weight: 700;
+}
+
+.tapetes_filtros__btn:hover {
+  border-bottom: 2px solid #7B00CC;
+}
+
+.tapetes_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.tapetes_card {
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.tapetes_card:hover {
+  box-shadow: 0 10px 28px rgba(120, 0, 200, 0.16);
+  transform: translateY(-4px);
+}
+
+.tapetes_card:hover .tapetes-card__img {
+  transform: scale(1.07);
+}
+
+.tapetes_card__img_wrapper {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  background-color: #d0d0d0;
+}
+
+.tapetes_card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.tapetes_card__body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+}
+
+.tapetes_card__nome {
+  font-family: popins;
+  font-size: 22px;
+  font-weight: 700;
+  color: #7C3AED;
+  margin: 0;
+}
+
+.tapetes_card__desc {
+  font-family: popins;
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.tapetes_card__avaliacao {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 15px;
+}
+
+.tapetes_card__nota {
+  font-weight: 700;
+  color: #333;
+}
+
+.tapetes_card__avaliacoes {
+  color: #777;
+}
+
+.tapetes_card__rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.tapetes_card__preco {
+  font-family: popins;
+  font-size: 20px;
+  font-weight: 800;
+  color: #e00000;
+}
+
+.tapetes_card__btn {
+
+  background-color: #CC00CC;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 7px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: popins;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.tapetes_card__btn:hover {
+  background-color: #F29AFF;
+  color: #000;
+  opacity: 0.85;
+}
+
+.tapetes_paginacao {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.tapetes_paginacao__btn {
+  background: none;
+  border: none;
+  font-family: popins;
+  font-size: 20px;
+  font-weight: 600;
+  color: #7C3AED;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.tapetes_paginacao__btn:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,11 @@
+body {
+  background: linear-gradient(180deg,
+    #FFFFFF 12%,
+    #F1CEF7 30%,
+    #F8E7FB 49%,
+    #F5DAF9 68%,
+    #F6E0FA 85%
+  );
+  min-height: 100vh;
+  background-attachment: fixed; /* faz o gradiente ficar fixo ao rolar a página */
+}
