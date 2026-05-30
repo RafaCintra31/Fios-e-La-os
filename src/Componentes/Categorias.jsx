@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from '../Css/Categorias.module.css'
 import Bolsas from '../assets/imgens/Bolsa_Preta.jpeg'
-import Tapete from '../assets/imgens/Tapete_sala.jpeg'
+import Tapete from '../assets/imgens/tapete_sala.jpeg'
 
 const categorias = [
   {
